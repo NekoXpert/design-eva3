@@ -1,0 +1,117 @@
+.Portada {
+    height: 100vh;
+    position: relative;
+    max-width: 100%;
+}
+
+
+.fondo_p {
+    background-image: linear-gradient(to bottom, rgba(197, 180, 180, 0.432), rgba(253, 251, 248, 0.856)), url("/assets/img/fondo-login.jpg");
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/*login*/
+
+.totu-1 {
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: white;
+    width: 540px;
+    height: 590px;
+    border: 2px solid red;
+}
+
+.control-1 {
+    width: 20%;
+}
+
+.size-img {
+    width: 150px;
+}
+
+.p1 {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 10px;
+}
+
+.p2 {
+    line-height: 0px;
+    text-align: left;
+    padding: 0px 30px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.inputs-1 {
+    border-radius: 10px;
+    text-align: left !important;
+    padding: 8px 12px;
+    padding-right: 260px;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px 30px;
+    border: none;
+    outline: none;
+    border: 1px solid black;
+    border-color: red;
+}
+
+.button-card {
+    padding: 12px 120px;
+    border: 1px solid red;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.5s;
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+.button-card:hover{
+    color: white;
+}
+
+.p3 {
+    transition: 0.5s;
+    color: red;
+    text-align: left;
+    padding: 0px 30px;
+    font-family: 'Work Sans', sans-serif;
+}
+.img-logo1 {
+    width: 9%;
+    margin: 0px 120px;
+}
+
+
+
+.Portada {
+    height: 84vh;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    max-width: 100%;
+}
+
+.text-foo2{
+    text-align: center;
+    text-decoration: none;
+}
+span{
+
+    color:red}
+    
+
+    .text-white{
+        text-decoration: none;
+        text-align: left;
+    }

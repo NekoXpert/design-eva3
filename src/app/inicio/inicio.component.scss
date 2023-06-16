@@ -1,0 +1,293 @@
+.img-logo{
+    width: 9%;
+    margin: 0px 120px;
+}
+.navbar-nav .nav-item{
+    margin: 0px 15px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+.Portada {
+    height: 84vh;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    max-width: 100%;
+}
+.nav-disa{
+    margin-right: 110px !important;
+}
+
+.text-1 {
+    width: 100%;
+    margin: 225px auto;
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.text-2 {
+    width: 100%;
+    margin: 300px auto;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.text-3 {
+    width: 100%;
+    margin: 330px auto;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.button-s {
+    display: flex;
+}
+
+.buton1 {
+    margin: 410px 750px;
+    padding: 20px 50px;
+    border: 1px solid red;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-radius: 12px;
+}
+
+.buton2 {
+    margin-top: 410px;
+    margin-left: 950px;
+    padding: 20px 30px;
+    border: 1px solid red;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    border-radius: 12px;
+}
+
+.buton1:hover {
+    color: rgb(255, 255, 255);
+}
+
+.buton2:hover {
+    color: rgb(255, 255, 255);
+}
+
+.fa-rocket {
+    font-size: 67px !important;
+}
+
+
+
+.card-title {
+    color: rgb(65, 65, 65);
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Work Sans', sans-serif;
+    padding-bottom: 20px;
+}
+
+/*CARDS*/
+.cards-grid {
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: repeat(auto-fill, minmax(292px, 1fr));
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    /* Mueve la tarjeta hacia arriba */
+}
+
+.card {
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 20px !important;
+    border: 0px solid !important;
+    max-width: 400px !important;
+    /* Establece el ancho máximo deseado */
+    max-height: auto !important;
+    /* Establece la altura máxima deseada */
+    transition: all 0.5s !important;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125) !important;
+    border-radius: 0.25rem;
+}
+
+.card-img img {
+    width: 100%;
+    height: 165px;
+    border-radius: 18px 18px 0px 0px;
+}
+
+.card .card-content h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 24px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 19px;
+}
+
+.card-content {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.button-card {
+    padding: 10px 90px;
+    text-decoration: none;
+    border: 1px solid red;
+    border-radius: 7px;
+    color: red;
+    font-weight: 900;
+    transition: all 0.5s;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.button-card:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+}
+
+
+
+.back-title {
+    color: rgb(27, 27, 27);
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.back-title-2 {
+    color: rgb(27, 27, 27);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    padding-bottom: 20px;
+}
+
+
+.text-button {
+    text-align: center;
+}
+
+.text-button-a {
+    border-radius: 14px;
+    text-decoration: none;
+    padding: 13px 50px;
+    border: 1px solid black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+    color: black;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+
+.text-button-a:hover {
+    color: white;
+    background-color: black;
+}
+
+.fa-solid {
+    font-size: 22px;
+}
+
+/*Beneficios*/
+.container-beneficios {
+    max-width: 1480px !important;
+    margin-bottom: 70px;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card-title-3 {
+    color: rgb(27, 27, 27);
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Work Sans', sans-serif;
+    padding-bottom: 20px;
+    font-weight: 900;
+}
+
+.img-fluid {
+    border: 1px soli black;
+}
+
+.p-card-2 {
+    margin-bottom: 90px;
+    margin-top: 60px;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.button-card-2 {
+    padding: 15px 90px;
+    text-decoration: none;
+    border: 1px solid red;
+    border-radius: 7px;
+    color: red;
+    font-weight: 900;
+    transition: all 0.5s;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 26px;
+}
+
+.button-card-2:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+}
+.text-foo2{
+    text-align: center;
+    text-decoration: none;
+}
+span{
+
+    color:red}
+    
+
+    .text-white{
+        text-decoration: none;
+        text-align: left;
+    }
+
+.button-s {
+    
+  
+
+margin-left: 7%;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- meta //codificacion de caracteres -->
+    <meta charset="UTF-8">
+    <!-- meta compatibilidad con internet explorer -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta compatibilidad con internet explorer -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Proyecto-web</title>
+    <!-- Enlaces -->
+
+
+</head>
+
+<body>
+
+    <article class="container">
+        <form action="enviar.php" method="POST">
+            <section class="row">
+                <section class="col-xd-12 col-sm-12 col-md-6">
+                    <img src="assets/img/contacto.jpg" alt="" class="img-fluid imagen">
+                </section>
+                <section class="col-xd-12 col-sm-12 col-md-6">
+                    <label>Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required>
+
+                    <label>Correo:</label>
+                    <input type="email" name="email" id="email" placeholder="Ingresa tu correo" required>
+
+                    <label>Celular:</label>
+                    <input type="text" name="celular" pattern="[9]{1}[0-9]{8}" id="celular"
+                        placeholder="Ingresa tu celular" required>
+
+                    <label>Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" maxlength="150"
+                        placeholder="Escribe aquí tu mensaje..." required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </section>
+            </section>
+        </form>
+
+    </article>
+
+<footer class="bg-black text-white text-center text-md-start">
+    <div class="container p-4">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                <img src="/src/assets/img/image-7@2x.png" alt="">
+                <img src="/src/assets/img/image-7@2x.png" alt="">
+                <img src="/src/assets/img/image-7@2x.png" alt="">
+                <h5 class="text-upp">Contacto</h5>
+                <p>
+                    +51 939 123 987
+                </p>
+                <p>
+                    +51 939 123 987(Whatsapp)
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="texte">E-Mail</h5>
+                <p>
+                    devlab.pe@gmail.com
+                </p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-upp mb-0">Dirección</h5>
+                <p>
+                    Lima-Perú
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="text-foo2">
+        DEVLAB SOLUCIONES INFORMÁTICAS SAC @2022-Todos los derechos reservados
+        <a class="text-white">Desarrollado por <span>Giancarlos Barboza N.</span></a>
+    </div>
+
+</footer>
+
+</body>
+
+</html>
+
+
