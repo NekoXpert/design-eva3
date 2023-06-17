@@ -1,3 +1,16 @@
+PREVIEW
+
+
+<img src="preview/1.png" width="650" height="650">
+<img src="preview/2.png" width="650" height="650">
+<img src="preview/3.png" width="650" height="650">
+<img src="preview/4.png" width="650" height="650">
+<img src="preview/5.png" width="650" height="650">
+<img src="preview/6.png" width="650" height="650">
+<img src="preview/7.png" width="650" height="650">
+<img src="preview/8.png" width="650" height="650">
+
+
 # DesignEva3
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
