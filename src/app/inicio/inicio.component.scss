@@ -1,95 +1,177 @@
-.img-logo{
-    width: 9%;
-    margin: 0px 120px;
-}
-.navbar-nav .nav-item{
-    margin: 0px 15px;
-    color: black;
-    font-weight: bold;
-    font-family: 'Quicksand', sans-serif;
-}
-.Portada {
-    height: 84vh;
-    width: 100%;
-    text-align: center;
+.main-banner{
     position: relative;
-    align-items: center;
-    max-width: 100%;
-}
-.nav-disa{
-    margin-right: 110px !important;
+    padding: 16em 18em;
+    background:linear-gradient(to right, darkblue,darkblue);
 }
 
-.text-1 {
+
+
+.main-banner::after{
+    content: '';
     width: 100%;
-    margin: 225px auto;
+    height: 100%;
     position: absolute;
-    color: white;
-    font-size: 50px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    top: 0;
+    left: 0;
+    mix-blend-mode: color;
+    opacity: .4;
+
 }
 
-.text-2 {
+.imagen{
+    position: absolute;
     width: 100%;
-    margin: 300px auto;
-    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    opacity: .4;
+
+
+}
+
+.main-banner-data{
+    position:relative;
+    text-align: center;
+    z-index: 1000;
+}
+
+.titulo{
     color: white;
-    font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
-
+    font-weight: bold;
 }
 
-.text-3 {
-    width: 100%;
-    margin: 330px auto;
-    position: absolute;
+.parrafo{
     color: white;
-    font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
 }
 
-.button-s {
-    display: flex;
-}
-
-.buton1 {
-    margin: 410px 750px;
-    padding: 20px 50px;
-    border: 1px solid red;
-    font-family: 'Montserrat', sans-serif;
-    position: absolute;
+.botones{
+    color:white;
+    padding: 16px 32px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
     text-decoration: none;
+    background-color: red;
     color: white;
-    background-color: red;
-    border-radius: 12px;
+    border-radius: 5px;
 }
 
-.buton2 {
-    margin-top: 410px;
-    margin-left: 950px;
-    padding: 20px 30px;
-    border: 1px solid red;
-    font-family: 'Montserrat', sans-serif;
-    position: absolute;
+
+.titulo-card{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cards-grid{
+    display: grid;
+    gap: 2.5em;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+}
+
+
+
+.card{
+    background-color: white;
+    border-radius: .5em;
+    box-shadow: 0 1px 11px rgb(159,159,159,.49);    
+}
+
+
+
+.card-img img{
+    border-radius: 0.5em 0.5em 0 0;
+}
+
+.card-content{
+    padding: 1em;
+}
+
+.txta{
+    color: black;
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    background-color: red;
-    border-radius: 12px;
+    padding: auto;
+    font-size: 0.9em;
+    
 }
 
-.buton1:hover {
-    color: rgb(255, 255, 255);
+.card-titulo{
+    font-size: 0.77em;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+
 }
 
-.buton2:hover {
-    color: rgb(255, 255, 255);
+.card-boton{
+    display: block;
+    width: 100%;
+    padding: .4em;
+    font-size: 16px;
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+    border-radius: 0.3em 0.3em 0.3em 0.3em;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    text-decoration:none;
+    
 }
 
-.fa-rocket {
-    font-size: 67px !important;
+.titulo{
+    text-align: center;
+    font-weight: bold;
 }
+
+.btnexplo{
+    
+    width: 100%;
+    padding: .7em;
+    font-size: 16px;
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+    border-radius: 0.3em 0.3em 0.3em 0.3em;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    text-decoration:none;
+    margin-left: 55em;
+}
+
+
+.pie{
+    background-color: black;
+    padding: 4em;
+    
+}
+
+.text-upp{
+    color: white;
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+.text-foo2{
+    background: rgb(0, 0, 0);
+    font-size: 0.9em;
+    text-align: center;
+    text-decoration: none;
+}
+.text-white{
+    padding-left: 10px;
+}
+.text-fooo{
+    color: red;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+
+
 
 
 
@@ -290,4 +372,92 @@ span{
   
 
 margin-left: 7%;
+}
+
+.text-foo2{
+    text-align: center;
+    text-decoration: none;
+    background-color:rgb(11, 11, 11);
+}
+span{
+text-align: left;
+
+    color:red}
+    
+
+    .text-white{
+        text-decoration: none;
+       
+      
+        backgrkound-color:black;
+    }
+
+    .imagef{
+
+        
+     width: 12%;
+  
+   margin-right:5em
+    }
+    .imagef2{
+
+        
+     width: 7%;
+     margin-right:10%;
+    }
+    .leftfooter{
+        margin-left: 20%;
+    }
+
+    .wspf{
+        width: 5%;
+        margin-right: 5%;
+     position: absolute;
+     
+      
+    
+    }
+    .contacto, .correo, .direccion {
+    display: flex;
+    align-items: center;
+}
+
+.texto-contacto, .texto-correo, .texto-direccion {
+    margin-right: 12px;
+}
+
+.imagef, .imagef2 {
+    flex-shrink: 0;
+}
+
+.text-foo2 {
+    text-align: left;
+}
+@media screen and (max-width: 768px) {
+    .main-banner-data h1 {
+        font-size: 0.5em;
+    }
+
+    .main-banner-data .parrafo {
+        font-size: 0.5em;
+    }
+
+    .main-banner-data .botones {
+        font-size: 0.7em; 
+        padding: 10px; 
+    }
+}
+@media screen and (max-width: 480px) {
+    .main-banner-data h1 {
+        font-size: 0.2em; 
+    }
+
+    .main-banner-data .parrafo {
+        font-size: 0.3em; 
+    }
+
+    .main-banner-data .botones {
+        font-size: 0.5em; 
+        padding: 2px; 
+    }
 }
