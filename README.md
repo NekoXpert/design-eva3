@@ -8,7 +8,10 @@ PREVIEW
 <img src="preview/5.png" width="854" height="480">
 <img src="preview/6.png" width="854" height="480">
 <img src="preview/7.png" width="854" height="480">
-<img src="preview/8.png" width="854" height="480">
+<img src="preview/9.png" width="480" height="854">
+<img src="preview/10.png" width="480" height="854">
+<img src="preview/11.png" width="480" height="854">
+<img src="preview/12.png" width="480" height="854">
 
 
 # DesignEva3
