@@ -1,14 +1,14 @@
 PREVIEW
 
 
-<img src="preview/1.png" width="650" height="650">
-<img src="preview/2.png" width="650" height="650">
-<img src="preview/3.png" width="650" height="650">
-<img src="preview/4.png" width="650" height="650">
-<img src="preview/5.png" width="650" height="650">
-<img src="preview/6.png" width="650" height="650">
-<img src="preview/7.png" width="650" height="650">
-<img src="preview/8.png" width="650" height="650">
+<img src="preview/1.png" width="854" height="480">
+<img src="preview/2.png" width="854" height="480">
+<img src="preview/3.png" width="854" height="480">
+<img src="preview/4.png" width="854" height="480">
+<img src="preview/5.png" width="854" height="480">
+<img src="preview/6.png" width="854" height="480">
+<img src="preview/7.png" width="854" height="480">
+<img src="preview/8.png" width="854" height="480">
 
 
 # DesignEva3
