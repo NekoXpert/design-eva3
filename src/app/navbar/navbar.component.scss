@@ -7,9 +7,15 @@
 }
 
 .navbar .nav-link:hover {
-  color: #007BFF;
+  color: #000000;
+  font-weight: 700;
 }
+
 .img-logo {
-  max-width: 150px; /* Ajusta a tus necesidades */
-  max-height: 50px; /* Ajusta a tus necesidades */
+  max-width: 150px;
+  max-height: 50px;
+}
+
+.show {
+  display: block !important;
 }

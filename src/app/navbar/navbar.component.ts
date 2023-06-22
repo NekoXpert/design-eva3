@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent {
+  isNavbarOpen = false;
 
+  toggleNavbar() {
+    this.isNavbarOpen = !this.isNavbarOpen;
+  }
+
+  closeNavbar() {
+    this.isNavbarOpen = false;
+  }
 }

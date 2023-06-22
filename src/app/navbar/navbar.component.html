@@ -1,30 +1,31 @@
 
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-        <img class="img-logo img fluid" src="/assets/img/Logo.svg" alt="">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            </ul>
-            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+        <img class="img-logo img-fluid" src="/assets/img/Logo.svg" alt="">
+        <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" [ngClass]="{'show': isNavbarOpen}">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" routerLink="/inicio">INICIO</a>
+                    <a class="nav-link" routerLink="/inicio" (click)="closeNavbar()">INICIO</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/cursos">CURSOS</a>
+                    <a class="nav-link" routerLink="/cursos" (click)="closeNavbar()">CURSOS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/especializaciones">ESPECIALIZACIONES</a>
+                    <a class="nav-link" routerLink="/especializaciones" (click)="closeNavbar()">ESPECIALIZACIONES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/contactos">CONTACTOS</a>
+                    <a class="nav-link" routerLink="/contactos" (click)="closeNavbar()">CONTACTOS</a>
                 </li>
                 <li class="nav-item nav-disa">
-                    <a class="nav-link" routerLink="/aulavirtual">AULA VIRTUAL</a>
+                    <a class="nav-link" routerLink="/aulavirtual" (click)="closeNavbar()">AULA VIRTUAL</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
-
 
 
