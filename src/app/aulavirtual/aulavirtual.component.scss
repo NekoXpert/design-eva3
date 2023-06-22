@@ -1,117 +1,113 @@
-.Portada {
-    height: 100vh;
-    position: relative;
-    max-width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+.fondo {
+  height: 100vh;
+  background-image: url("/assets/img/fondo-login.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-
-.fondo_p {
-    background-image: linear-gradient(to bottom, rgba(197, 180, 180, 0.432), rgba(253, 251, 248, 0.856)), url("/assets/img/fondo-login.jpg");
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    background-size: cover;
-    background-position: center;
-
+.buenazo {
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  background-color: white;
+  width: 620px;
+  height: 550px;
+  border: 2px solid red;
+  box-shadow: 0 5px 10px rgba(1, 1, 1, 0.1);
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+ 
+  padding: 30px;
+  box-sizing: border-box;
+   width: 30%;
+    height: auto;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.735);
 }
 
-/*login*/
-
-.totu-1 {
-    margin: 0 auto;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    background-color: white;
-    width: 540px;
-    height: 590px;
-    border: 2px solid red;
+.backgroundX {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+  margin-bottom: 20px;
 }
 
-.control-1 {
-    width: 20%;
+.titulo-form {
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 1.2em;
+  margin-top: -1em;
 }
 
-.size-img {
-    width: 150px;
+.form-parametros {
+  text-align: left;
+  padding: 0px 30px;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 900;
+  color: rgb(47, 47, 47);
+  margin-bottom: 5px;
 }
 
-.p1 {
-    text-align: center;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 25px;
-    font-weight: bold;
-    line-height: 10px;
+.ingresarX {
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "Fredoka", sans-serif;
+  margin: 5px 0;
+  border: 1px solid black;
+  border-color: red;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.p2 {
-    line-height: 0px;
-    text-align: left;
-    padding: 0px 30px;
-    font-family: 'Work Sans', sans-serif;
+.buttonX-card {
+  padding: 12px 60px;
+  border: 1px solid red;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.5s;
+  font-family: "Fredoka", sans-serif;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  width: 100%;
+  text-align: center;
 }
 
-.inputs-1 {
-    border-radius: 10px;
-    text-align: left !important;
-    padding: 8px 12px;
-    padding-right: 260px;
-    font-family: 'Work Sans', sans-serif;
-    margin: 0px 30px;
-    border: none;
-    outline: none;
-    border: 1px solid black;
-    border-color: red;
-}
-
-.button-card {
-    padding: 12px 120px;
-    border: 1px solid red;
-    border-radius: 12px;
-    text-decoration: none;
-    transition: all 0.5s;
-    font-family: 'Work Sans', sans-serif;
-    background-color: rgb(255, 0, 0);
-    color: white;
-}
-.button-card:hover{
-    color: white;
+.buttonX-card:hover {
+  color: white;
+  background-color: rgb(24, 4, 179);
 }
 
 .p3 {
-    transition: 0.5s;
-    color: red;
-    text-align: left;
-    padding: 0px 30px;
-    font-family: 'Work Sans', sans-serif;
+  transition: 0.5s;
+  color: red;
+  text-align: left;
+  padding: 0px 30px;
+  font-family: "Fredoka", sans-serif;
 }
+
 .img-logo1 {
-    width: 9%;
-    margin: 0px 120px;
+  width: 9%;
+  margin: 0px 120px;
 }
 
-
-
-.Portada {
-    height: 84vh;
-    width: 100%;
-    text-align: center;
-    position: relative;
-    align-items: center;
-    max-width: 100%;
+::placeholder {
+  font-weight: lighter;
+  font-family: "Fredoka", sans-serif;
 }
 
-.text-foo2{
-    text-align: center;
-    text-decoration: none;
+@media screen and (max-width: 768px) {
+  .buenazo {
+    width: 90%;
+    height: auto;
+  }
+
+  .buttonX-card {
+    padding: 12px 30px;
+  }
 }
-span{
-
-    color:red}
-    
-
-    .text-white{
-        text-decoration: none;
-        text-align: left;
-    }

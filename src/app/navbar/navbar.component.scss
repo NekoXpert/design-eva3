@@ -1,5 +1,6 @@
 .navbar {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-weight: 500;
 }
 
 .navbar .nav-link {
@@ -9,6 +10,7 @@
 .navbar .nav-link:hover {
   color: #000000;
   font-weight: 700;
+  transform: scale(1.1)
 }
 
 .img-logo {
